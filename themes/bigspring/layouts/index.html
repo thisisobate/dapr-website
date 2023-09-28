@@ -56,6 +56,10 @@ p i {
   padding-left: 6px;
 }
 
+.italic {
+  font-style: italic;
+}
+
 a {
   text-decoration: none;
 }
@@ -703,17 +707,14 @@ footer .navLink:hover {
       <div class="grid grid-column-auto grid-row-auto padding-top-40">
         <div class="card">
           <div class="img-container-md">
-            <img src="./images/ignition-group.png" alt="ignition-group logo">
+            <img src="./images/atbay.png" alt="AtBay logo">
           </div>
           <div class="border-decoration">
-            <p>Ignition group chooses dapr for business process automation</p>
+            <p>How At-Bay improved operations with Dapr.</p>
+            <p class="italic">"At-Bay uses Dapr to better analyze its processes by offering increased visibility and traceability because of the built-in support of Dapr for the OpenTelemetry standard."</p>
           </div>
           <div class="flex padding-top-down-10 gap-xsm">
-            <a href="#">Video</a>
-            <div>
-              <div class="dotted-space"></div>
-            </div>
-            <a href="#">Blog</a>
+            <a href="https://www.cncf.io/case-studies/at-bay/">Read the article</a>
           </div>
         </div>
         <div class="card">
@@ -721,14 +722,11 @@ footer .navLink:hover {
             <img src="./images/bosch.png" alt="bosch logo">
           </div>
           <div class="border-decoration">
-            <p>Ignition group chooses dapr for business process automation</p>
+            <p>Bosch’s Residential IoT Services GmbH (RIoT) uses Dapr actors and Java SDK to build a large scale smart home IoT solution.</p>
+            <p class="italic">"We used the Dapr SDK to publish events, which gave us the time to focus on what we wanted to communicate, instead of, ‘How do I get this communication implemented?’ We could focus on the real things that matter."</p>
           </div>
           <div class="flex padding-top-down-10 gap-xsm">
-            <a href="#">Video</a>
-            <div>
-              <div class="dotted-space"></div>
-            </div>
-            <a href="#">Blog</a>
+            <a href="https://customers.microsoft.com/en-us/story/1435725395247777374-bosch-builds-smart-homes-using-dapr-azure">Read the article</a>
           </div>
         </div>
         <div class="card">
@@ -736,14 +734,11 @@ footer .navLink:hover {
             <img src="./images/wortell.png" alt="wortell logo">
           </div>
           <div class="border-decoration">
-            <p>Ignition group chooses dapr for business process automation</p>
+            <p>Wortell reduced infrastructure complexity with Dapr.</p>
+            <p class="italic">"The team were able to remove several software packages and a considerable amount of code from all of their microservices. Plus adopting Dapr APIs from the .NET SDK allowed them to offload dealing with the infrastructure integration and async inter-process communication to the Dapr runtime."</p>
           </div>          
           <div class="flex padding-top-down-10 gap-xsm">
-            <a href="#">Video</a>
-            <div>
-              <div class="dotted-space"></div>
-            </div>
-            <a href="#">Blog</a>
+            <a href="https://www.cncf.io/case-studies/wortell/">Read the article</a>
           </div>
         </div>
         <div class="card">
@@ -751,14 +746,11 @@ footer .navLink:hover {
             <img src="./images/alibaba.png" alt="alibaba logo">
           </div>
           <div class="border-decoration">
-            <p>Ignition group chooses dapr for business process automation</p>
+            <p>See how at Alibaba Cloud, Dapr is used to solve challenges of multi-language systems, integration with legacy systems, and cloud-to-cloud migration.</p>
+            <p class="italic">"At Alibaba Cloud, we believe Dapr will lead the evolution of microservices. By adopting Dapr, our customers now enjoy increased velocity for building portable and robust distributed systems."</p>
           </div>          
           <div class="flex padding-top-down-10 gap-xsm">
-            <a href="#">Video</a>
-            <div>
-              <div class="dotted-space"></div>
-            </div>
-            <a href="#">Blog</a>
+            <a href="https://blog.dapr.io/posts/2021/03/19/how-alibaba-is-using-dapr/">Read the article</a>
           </div>
         </div>
       </div>
@@ -766,8 +758,7 @@ footer .navLink:hover {
     <section class="width-60 vertical-align-center padding-top-down-100">
       <h2 class="text-center">Build event driven apps faster</h2>
       <p class="text-justify font-weight-300">
-        Dapr is set of APIs with built-in best practices to build cloud-native event-driven applications. <br>
-        Dapr increases your developer productivity by 20-40% with built-in features such as workflow, pub/sub, state management, secret stores, configuration stores, bindings, actors and distributed lock and covers cross-cutting concerns including security, observability and resiliency.
+        Dapr is set of APIs with built-in best practices to build cloud-native event-driven applications. Dapr increases your developer productivity by 20-40% with out-of-the-box features such as workflow, pub/sub, state management, secret stores, configuration stores, bindings, actors and distributed lock and covers cross-cutting concerns including security, observability and resiliency.
       </p>
     </section>
     <section>
@@ -775,7 +766,7 @@ footer .navLink:hover {
         <div class="width-60 font-weight-300 width-100-mobile">
           <h3 class="text-center-mobile">Automate your business processes</h3>
           <p class="text-justify-mobile">Dapr workflow is simplifying complex, stateful coordination requirements in event-driven applications.</p>
-          <p class="text-justify-mobile">Workflow makes it easy to implement patterns such as function chaining or aggregate over them in parallel. It support long running processes and has resiliency built-in.</p>
+          <p class="text-justify-mobile">Workflow makes it easy to implement orchestration patterns such as task chaining, fan-out/fan-in, monitor, and external system interaction. Workflow can be combined with the other Dapr APIs so developers can automate business processes quickly.</p>
         </div>
         <div>
           <img src="./images/image-card.png" alt="image card">
@@ -798,6 +789,17 @@ footer .navLink:hover {
         <div class="width-60 font-weight-300 width-100-mobile">
           <h3 class="text-center-mobile">Integrate with the infrastructure of your choice</h3>
           <p class="text-justify-mobile">Dapr's component model decouples technology choices from your code making it agnostic to hosting environments and enabling application portability. Dapr runs as a sidecar wherever your application runs whether hosted on Kubernetes, VMs, deployed on the cloud, on-premises or on the edge.</p>
+        </div>
+        <div>
+          <img src="./images/image-card.png" alt="image card">
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="flex justify-content-space-between flex-row-reverse padding-top-down-100 width-60 vertical-align-center column-reverse-mobile">
+        <div class="width-60 font-weight-300 width-100-mobile">
+          <h3 class="text-center-mobile">Incrementally adopt</h3>
+          <p class="text-justify-mobile">Dapr can be introduced into an existing architecture incrementally. Dapr applications can call non-Dapr endpoints while still having the Dapr benefits of having resiliency policies, observability, security access through scoping and more.</p>
         </div>
         <div>
           <img src="./images/image-card.png" alt="image card">
