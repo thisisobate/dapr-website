@@ -54,7 +54,20 @@ footer .navLink:hover {
 /* flexbox */
 .flex {
     display: flex;
+    justify-content: center;
 }
+
+#adopters.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+#adopters>.img-container-md {
+    width: 150px;
+    height: 150px;
+}
+
 .flex-column {
     flex-direction: column;
 }
